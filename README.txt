@@ -35,6 +35,26 @@ USING THE CODE
 
 The code was tested using MSVC 2012 and MATLAB 2014a
 
+OTHER PACKAGES
+-----------------------------
+
+* IBFS max-flow/min-cut algorithm: https://github.com/aosokin/graphCutMex_IBFS
+
+The IBFS algorithm has polynomial time runtime guarantees. The BK does not.
+In my experience BK works faster for graphs built for standard 4(8)-connected grid MRFs.
+If the graph becomes more complicated (especially hierarchical) consider trying IBFS instead.
+
+* BK max-flow/min-cut algorithm with interface supporting dynamic graph cuts:
+https://github.com/aosokin/graphCutDynamicMex_BoykovKolmogorov
+
+If you need to solve many similar graph cut problems in a row consider using dynamic graph cuts.
+
+* QPBO algorithm
+https://github.com/aosokin/qpboMex
+
+If you need to minimize energy with just a few non-submodular edges try using the QPBO algorithm 
+
+UPDATES
 -----------------------------
 
 Update 24.09.2014
