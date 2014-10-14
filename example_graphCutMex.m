@@ -1,3 +1,7 @@
+% example of usage of package graphCutMex
+%
+% Anton Osokin (firstname.lastname@gmail.com),  19.05.2013
+
 nNodes=4;
 %source,sink
 terminalWeights=[
@@ -23,5 +27,5 @@ if ~isequal(cut, 22)
     warning('Wrong value of cut!')
 end
 if ~isequal(labels, [0; 0; 1; 0])
-    warning('Wrong energy of labels!')
+    warning('Wrong value of labels!')
 end

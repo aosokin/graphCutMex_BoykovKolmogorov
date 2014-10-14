@@ -1,4 +1,4 @@
-% graphCutMex - Matlab wrapper to the implementation of min-cut algorithm by Vladimir Kolmogorov:
+% graphCutMex - Matlab wrapper to the implementation of min-cut algorithm by Yuri Boykov and Vladimir Kolmogorov:
 % 	http://pub.ist.ac.at/~vnk/software/maxflow-v3.03.src.zip
 % This version can automatically perform reparametrization on all submodular edges.
 % 
@@ -28,4 +28,4 @@
 % To build the code in Matlab choose reasonable compiler and run build_graphCutMex.m
 % Run example_graphCutMex.m to test the code
 % 
-% 	Anton Osokin (firstname.lastname@gmail.com)
+% 	Anton Osokin (firstname.lastname@gmail.com),  19.05.2013

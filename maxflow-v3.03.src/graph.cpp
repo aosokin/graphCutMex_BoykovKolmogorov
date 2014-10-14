@@ -1,5 +1,8 @@
 /* graph.cpp */
 
+#ifndef __GRAPH_CPP__
+#define __GRAPH_CPP__
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -122,4 +125,11 @@ template <typename captype, typename tcaptype, typename flowtype>
 	}
 }
 
- #include "instances.inc"
+#ifndef __INSTANCES_INC__
+#define __INSTANCES_INC__
+
+#include "instances.inc"
+
+#endif
+
+#endif

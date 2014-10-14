@@ -1,5 +1,8 @@
 /* maxflow.cpp */
 
+#ifndef __MAXFLOW_CPP__
+#define __MAXFLOW_CPP__
+
 
 #include <stdio.h>
 #include "graph.h"
@@ -681,4 +684,12 @@ template <typename captype, typename tcaptype, typename flowtype>
 	}
 }
 
+#ifndef __INSTANCES_INC__
+#define __INSTANCES_INC__
+
 #include "instances.inc"
+
+#endif
+
+#endif
+        
