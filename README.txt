@@ -23,7 +23,9 @@ PACKAGE
 ./maxflow-v3.03.src - C++ code by Vladimir Kolmogorov (the code was slightly modified)
 http://pub.ist.ac.at/~vnk/software/maxflow-v3.03.src.zip
 
-./graphCutMex.mexw64 - binary file for the MEX-function compiled using MATLAB R2014a + MSVC 2012
+./graphCutMex.mexw64 - Win x64 binary file for the MEX-function compiled using MATLAB R2014a + MSVC 2012
+
+./graphCutMex.mexa64 - Linux x64 binary file for the MEX-function compiled using  MATLAB R2012a + gcc-4.4
 
 USING THE CODE
 -----------------------------
@@ -36,7 +38,7 @@ USING THE CODE
 
 The code was tested under 
 - Win7-x64 using MATLAB R2014a and MSVC 2012;
-- ubuntu-12.04-x64 using MATLAB R2012a and gcc-4.3
+- ubuntu-12.04-x64 using MATLAB R2012a and gcc-4.4
 
 OTHER PACKAGES
 -----------------------------
